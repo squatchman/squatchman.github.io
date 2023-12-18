@@ -1,0 +1,250 @@
+body {
+	background-color: #A60000; 
+	font-family: Helvetica;
+	font-size: 1.25em;
+	width: 800px;
+	
+	margin: auto;
+}
+
+.lodgingGraphic {
+	top: 0px;	
+}
+
+.homebutton {
+	cursor: pointer;
+	position: absolute;
+	left: 25px;
+	top: 25px;
+	width: 250px;
+	height: 250px;
+	clear: both;	
+}
+.homebutton-small {
+	cursor: pointer;
+	position: absolute;
+	left: 25px;
+	top: 25px;
+	width: 250px;
+	height: 250px;
+	clear: both;	
+}
+
+a:link{
+	color: #FF7373;
+}
+a:visited {
+	color: #BF3030;
+}
+
+.heading {
+	font-size: 6em;
+}
+
+.white {
+	color: white;
+}
+
+#mainContainer {
+
+}
+
+#centered {
+	text-align: center;
+}
+
+#pageContent {
+	margin-bottom: 1em;
+}
+
+
+#ourNames {
+	border-left: 1px solid white;
+	margin-left: 1em;
+	padding-left: 1em;
+}
+
+#ourNames div {
+	padding: .35em;
+}
+
+#timeAndPlace {
+	writing-mode: vertical-rl;
+	padding: .5em;
+}
+
+#timeAndPlace img {
+	padding-bottom: .5em;
+}
+
+#navigationList {
+	text-align: center;
+}
+
+#navigationList li {
+	display: inline;
+	list-style-type: none;
+	cursor: pointer;
+	color: white;
+}
+
+.navigationItem {
+	display: inline;
+	color: black;
+}
+
+.flexContainer {
+	display: -webkit-box;    
+	display: -moz-box;       
+	display: -ms-flexbox;   
+	display: -webkit-flex;  
+	display: flex;       
+}
+
+.flexCentered {
+	-webkit-box-align: center; 
+	-moz-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+}
+
+.flexJustified {
+	justify-content: center;
+	-webkit-justify-content: center;
+	-webkit-box-pack: center; 
+	-moz-box-pack: center; 
+	-moz-justify-content: center;
+	-ms-flex-pack: center; 
+}
+
+.flexColumn {
+	flex-direction: column;
+	-webkit-flex-direction: column;
+	-webkit-box-direction: column;
+	-ms-flex-direction: column;
+	-moz-flex-direction: column;
+	-moz-box-direction: column;
+}
+
+.flexRow {
+	flex-direction: row;
+	-webkit-flex-direction: row;
+	-webkit-box-direction: row;
+	-ms-flex-direction: row;
+	-moz-flex-direction: row;
+	-moz-box-direction: row;	
+}
+
+.coupleSection {
+	width: 400px;
+	padding: 1em;
+}
+
+.coupleSection img {
+	margin: auto;
+	padding-bottom: 2em;
+}
+
+#combined {
+	width: 800px;
+	padding: 0em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+#theCouples {
+	width: 800px;
+	border-bottom: 1px solid white;
+}
+
+#shannin {
+	border-left: 1px solid white;
+}
+
+#william h1 {
+	text-align: right;
+}
+
+#william div {
+	clear: right;
+}
+
+#william img {
+	width: 100%;
+	float: right;
+}
+
+#travelItinerary {
+	width: 800px;
+}
+
+.lodgingWidget {
+	width: 800px;
+	padding-top: 2em;
+}
+
+ul {
+	list-style: none;
+}
+
+#lodgingList li {
+	padding: 1em .25em 0em .25em;
+}
+
+#itineraryList li {
+	padding: 1em .25em 0em .25em;
+}
+
+#lodgingList uh {
+	margin-left:-1.5em;
+}
+
+#lodgingList li a {
+	padding-left: 1.5em;
+}
+
+.activitiesKludge {
+	width: 800px;
+	padding-top: 3em;
+}
+
+.sw-homeButton {
+	float: left;
+	vertical-align: middle;
+	padding-right: 1em;
+}
+
+.padded {
+	padding: .25em 1em .25em 0em;
+}
+
+.registerWidget {
+	padding-top: 2.5em;
+}
+#nonDemo {
+	margin-top: .5em;
+	margin-bottom: .5em;
+	padding-top: .5em;
+	padding-bottom: .5em;
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+	width: 25em;
+}
+
+#addressBox {
+	width: 15em;
+}
+
+#zipBox {
+	width: 3.5em;	
+}
+
+#stateBox {
+	width: 2.5em;
+}
+
+.topSpace {
+	width: 800px;
+	padding-top: 10em;
+}
