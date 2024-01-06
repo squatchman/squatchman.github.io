@@ -179,72 +179,20 @@ a:visited {
 	width: 800px;
 }
 
-.lodgingWidget {
-	width: 800px;
-	padding-top: 2em;
+#navbar > a {
+	padding-right: .5em;
 }
 
 ul {
 	list-style: none;
 }
 
-#lodgingList li {
-	padding: 1em .25em 0em .25em;
-}
-
-#itineraryList li {
-	padding: 1em .25em 0em .25em;
-}
-
-#lodgingList uh {
-	margin-left:-1.5em;
-}
-
-#lodgingList li a {
-	padding-left: 1.5em;
-}
-
-.activitiesKludge {
-	width: 800px;
-	padding-top: 3em;
-}
-
-.sw-homeButton {
-	float: left;
-	vertical-align: middle;
-	padding-right: 1em;
-}
-
-.padded {
-	padding: .25em 1em .25em 0em;
-}
-
-.registerWidget {
-	padding-top: 2.5em;
-}
-#nonDemo {
-	margin-top: .5em;
-	margin-bottom: .5em;
-	padding-top: .5em;
+li:not(:last-child) {
+	border-bottom: 1px solid black;
 	padding-bottom: .5em;
-	border-top: 1px solid white;
-	border-bottom: 1px solid white;
-	width: 25em;
+	margin-bottom: .5em;
 }
 
-#addressBox {
-	width: 15em;
-}
-
-#zipBox {
-	width: 3.5em;	
-}
-
-#stateBox {
-	width: 2.5em;
-}
-
-.topSpace {
-	width: 800px;
-	padding-top: 10em;
+li > div:not(:first-child) {
+	padding-left: 1em;
 }
