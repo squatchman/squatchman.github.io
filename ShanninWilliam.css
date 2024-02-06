@@ -188,11 +188,17 @@ ul {
 }
 
 li:not(:last-child) {
-	border-bottom: 1px solid black;
+	border-bottom: 2px solid #999;
 	padding-bottom: .5em;
 	margin-bottom: .5em;
 }
 
 li > div:not(:first-child) {
 	padding-left: 1em;
+}
+
+.eventSection {
+	border-bottom: 1px solid black;
+	padding-bottom: .5em;
+	margin-bottom: .5em;
 }
